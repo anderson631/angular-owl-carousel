@@ -98,6 +98,10 @@
 					owlCarousel = null,
 					propertyName = attributes.owlCarousel;
 
+				scope.$watchCollection(attributes.owlConfig, function(content) {
+					options = content;
+				});
+
 				for (var i = 0; i < owlOptions.length; i++) {
 					var opt = owlOptions[i];
 					if (attributes[opt] !== undefined) {
