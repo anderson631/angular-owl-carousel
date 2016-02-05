@@ -24,7 +24,7 @@ Javascript:
 HTML:
 
     <div ng-controller="MyController">
-        <div owl-carousel="items">
+        <div owl-carousel="items" items="4" pagination="true">
             <div class="item">{{ item }}</div>
         </div>
     </div>
