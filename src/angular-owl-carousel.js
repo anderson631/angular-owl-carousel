@@ -57,6 +57,7 @@
 			'stageElement',
 			'navContainer',
 			'dotsContainer',
+			'pagination',
 			// Classes
 			'themeClass',
 			'baseClass',
